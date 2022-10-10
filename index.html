@@ -22,15 +22,15 @@
       <a href="#recording">Recordings</a>
     </nav>
     <section id="attendence">
-      <h3>Attendence List</h1>
+      <h3>Attendence List</h3>
 
-        <ul>
-          <li>Harry</li>
-          <li>Sam</li>
-          <li>Kenny</li>
-          <li>Cyrus</li>
-          <li>Terry</li>
-        </ul>
+      <ul>
+        <li>Harry</li>
+        <li>Sam</li>
+        <li>Kenny</li>
+        <li>Cyrus</li>
+        <li>Terry</li>
+      </ul>
     </section>
 
     <section id="agenda">
@@ -55,12 +55,12 @@
       <h3>Unfinished things from Last Meeting</h3>
       <p>
         Here is the list of tasks that are unfinished last meeting
+      </p>
       <ol>
         <li>Make a timeline of the project</li>
         <li>Invite new members to the project</li>
         <li>Share social media</li>
       </ol>
-      </p>
     </section>
 
     <section id="new">
@@ -81,45 +81,47 @@
           <source src="media/recording.mp4" type="video/mp4">
         </video>
         <hr>
-        Here are some details of the recording just in case:<br>
+      </p>
+      Here are some details of the recording just in case:<br>
       <details>
         <summary>Summary of the recording</summary>
         <p>You can play them in the browser</p>
 
       </details>
 
-      </p>
     </section>
   </div>
 
+  <h2>Suggestion Form</h2>
+  <form>
+    <fieldset>
+      Buttons for you to click with!<br>
+      <input type="checkbox" id="check" name="check1">
+      <input type="radio" id="radio" name="radio">
+      <input type="text" id="text" name="text">
+      <input type="date" id="date" name="date">
+      <textarea id="textarea" name="textarea">
+      </textarea>
+    </fieldset>
+    <fieldset>
+      <input list="members" name="member" id="member">
+      <datalist id="members">
+        <option value="Harry">Harry</option>
+        <option value="Sam">Sam</option>
+      </datalist>
+      <select>
+        <option value="Harry">Harry</option>
+        <option value="Sam">Sam</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <button type="button">Click Me!</button>
+    </fieldset>
+  </form>
+
 </body>
 <footer>
-  <h2>Suggestion Form</h1>
-    <form>
-      <fieldset>
-        Buttons for you to click with!<br>
-        <input type="checkbox" id="check" name="check1">
-        <input type="radio" id="radio" name="radio">
-        <input type="text" id="text" name="text">
-        <input type="date" id="date" name="date">
-        <textarea id="textarea" name="textarea">
-      </textarea>
-      </fieldset>
-      <fieldset>
-        <input list="members" name="member" id="member">
-        <datalist id="members">
-          <option value="Harry">Harry</option>
-          <option value="Sam">Sam</option>
-        </datalist>
-        <select>
-          <option value="Harry">Harry</option>
-          <option value="Sam">Sam</option>
-        </select>
-      </fieldset>
-      <fieldset>
-        <button type="button">Click Me!</button>
-      </fieldset>
-    </form>
+  The end of the document
 </footer>
 
 </html>
