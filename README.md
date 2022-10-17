@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-https://hanghanghappy.github.io//Lab2_Starter/
+# Lab 3
+[https://hanghanghappy.github.io/fa22-cse110-lab3](https://hanghanghappy.github.io/fa22-cse110-lab3)
