@@ -1,6 +1,6 @@
 /* Font-family */
 html {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 /* Color, block display, text-decoration, auto margin */
@@ -12,18 +12,27 @@ header {
     margin: auto;
 }
 
+/* Universal */
+*{
+    font-size: 20px;
+}
+
+/* h2 */
 h2 {
     color:rgb(132, 0, 255)
 }
+
 
 h3, .agenda{
     background-color: #ffa4a4;
 }
 
+/* Attribute selector */
 a[href="#attendence"] {
     color: black;
 }
 
+/* Pseudo-class selector */
 a:hover {
     color:rgb(146, 0, 165);
 }
@@ -40,6 +49,7 @@ strong {
     color: hsl(2, 100%, 16%);
 }
 
+/* Display, borders, margin, flex */
 .navigation {
     display: flex;
     flex-direction: row;
@@ -63,6 +73,7 @@ strong {
     margin: 2vw, 2vw, 2vw, 2vw;
 }
 
+/* Grid */
 .atttendencelist{
     display: grid;
     grid-template-columns: 100px 150px 200px 150px 100px;
@@ -70,6 +81,7 @@ strong {
     justify-items: end;
 }
 
+/* Padding */
 .agenda {
     display: inline-block;
     padding-top: 10mm;
@@ -79,17 +91,24 @@ strong {
     position: relative;
 }
 
+.new {
+    padding: 10mm, 10mm, 10mm, 10mm;
+}
+
+/* Sizing */
 .img {
     height: 10cm;
     width: 15cm;
 }
 
 .video{
+    max-width: 10cm;
     max-height: 10cm;
     width: 10cm;
     position: static;
 }
 
+/* Pseudo-class*/
 .button1:hover {
     color: blue;
 }
@@ -112,22 +131,27 @@ strong {
     border-color: black;
 }
 
+/* Descendant */
 .meeting nav{
     background-color:rgb(81, 255, 133);
 }
 
+/* Child */
 section > p{
     color: rgb(14, 0, 31);
 }
 
+/* General sibling */
 h2 + form{
     background-color:#ffc1c1;
 }
 
+/* Adjacent sibling */
 h3 ~ ol{
     background-color: #fc4e4e;
 }
 
+/* Combining Two selectors */
 fieldset.click{
     background-color: aqua;
 }
