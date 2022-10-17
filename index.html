@@ -5,27 +5,30 @@
   <title>Meeting Minutes</title>
   <meta charset="UTF-8">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="stylesheet" href="mystyle.css">
 </head>
 
 <body>
   <main>
-    <div>
+    <div class="meeting">
       <header>
-        <h1>Group 1 Meeting Minutes</h1>
-        <h2>Brainstorming</h2>
+        <h1 class="group1">Group 1 Meeting Minutes</h1>
+        <h2 style="background-color:brown;">Brainstorming</h2>
         <h2>10/09/2022</h2>
       </header>
-      <nav>
+      <section class="displaynone">
+        Test
+      </section>
+      <nav class = "navigation">
         <a href="#attendence">Attendence List</a><br>
         <a href="#agenda">Agenda of what the meeting will cover</a><br>
         <a href="#last">Unfinished things from last meeting</a><br>
         <a href="#new">Things new to be talked about</a><br>
         <a href="#recording">Recordings</a>
       </nav>
-      <section id="attendence">
+      <section id="attendence" class="attendence">
         <h3>Attendence List</h3>
-
-        <ul>
+        <ul class="atttendencelist">
           <li>Harry</li>
           <li>Sam</li>
           <li>Kenny</li>
@@ -34,7 +37,7 @@
         </ul>
       </section>
 
-      <section id="agenda">
+      <section id="agenda" class="agenda">
         <h3>Agenda</h3>
         <p>
           <strong>NOTICE</strong><br>
@@ -48,7 +51,7 @@
         <hr>
         <p>
           Here is a meme that we used in the SWE meeting<br>
-          <img src="media/meme.png" alt="funny meme">
+          <img src="media/meme.png" alt="funny meme" class="img">
         </p>
       </section>
 
@@ -74,11 +77,11 @@
       <section id="recording">
 
         Audio recording:<br>
-        <audio controls>
+        <audio controls class="audio">
           <source src="media/recording.mp3" type="audio/mp3">
         </audio><br>
         Video recording:<br>
-        <video controls>
+        <video controls class="video">
           <source src="media/recording.mp4" type="video/mp4">
         </video>
         <hr>
@@ -93,7 +96,7 @@
     </div>
 
     <h2>Suggestion Form</h2>
-    <form>
+    <form class="form">
       <fieldset>
         Buttons for you to click with!<br>
         <input type="checkbox" id="check" name="check1">
@@ -114,8 +117,9 @@
           <option value="Sam">Sam</option>
         </select>
       </fieldset>
-      <fieldset>
-        <button type="button">Click Me!</button>
+      <fieldset class="click">
+        <button type="button" class="button1">Click Me!</button>
+        <button type="button" class="button2">Click Me again!</button>
       </fieldset>
     </form>
   </main>
